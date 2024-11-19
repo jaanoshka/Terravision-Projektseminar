@@ -1,0 +1,17 @@
+flask
+Flask-CORS
+psycopg2-binary
+requests
+flask-restful 
+googlemaps
+torch
+open3d
+numpy==1.26.4
+pandas
+matplotlib
+rasterio
+transformers
+torchvision
+segmentation-models-pytorch
+osmnx
+geopandas

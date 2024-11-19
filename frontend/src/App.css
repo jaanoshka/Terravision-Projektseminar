@@ -1,0 +1,113 @@
+
+  
+  .background-image {
+    position: absolute;
+    top: 100px; /* Oder der gewünschte Abstand vom oberen Rand */
+    left: 600px; /* Oder der gewünschte Abstand vom linken Rand */
+    width: 750px; /* Oder die gewünschte Breite des Bildes */
+    height: 1000px; /* Die Höhe des Bildes proportional zur Breite */
+    border-radius: 8px; /* Abgerundete Ecken */
+  }
+
+
+  .img2 {
+    position: absolute;
+    top: 325px; /* Oder der gewünschte Abstand vom oberen Rand */
+    /*left: 750px; /* Oder der gewünschte Abstand vom linken Rand */
+    width: 150px; /* Oder die gewünschte Breite des Bildes */
+    height: 90px; /* Die Höhe des Bildes proportional zur Breite */
+    border-radius: 8px; /* Abgerundete Ecken */
+    display: block;
+  margin-top: 100px;
+  }
+
+  .img3 {
+    position: absolute;
+    top: 325px; /* Oder der gewünschte Abstand vom oberen Rand */
+    left: 150px; /* Oder der gewünschte Abstand vom linken Rand */
+    width: 400px; /* Oder die gewünschte Breite des Bildes */
+    height: 90px; /* Die Höhe des Bildes proportional zur Breite */
+    border-radius: 8px; /* Abgerundete Ecken */
+    display: block;
+  margin-top: 100px;
+  }
+
+  .Input1 {
+    position: absolute;
+    top: 225px; /* Oder der gewünschte Abstand vom oberen Rand */
+    left: 10px; /* Oder der gewünschte Abstand vom linken Rand */
+    width: 400px; /* Oder die gewünschte Breite des Bildes */
+    height: 90px; /* Die Höhe des Bildes proportional zur Breite */
+    border-radius: 8px; /* Abgerundete Ecken */
+  }
+
+
+
+  
+  .textWelcome {
+    color: #333;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 100px;
+  }
+  
+
+
+  .navbar {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar__item {
+    margin-right: 20px;
+  }
+  
+  .navbar__link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar__link:hover {
+    text-decoration: underline;
+  }
+
+  /* styles.css oder das entsprechende CSS-Datei */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px; /* Abstand zwischen den Eingabefeldern */
+}
+
+.input-group label {
+  margin-bottom: 5px; /* Abstand zwischen Label und Eingabefeld */
+}
+
+.input-group input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+  
+
+/* styles.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Verhindert Scrollbalken */
+}
+
+canvas {
+  display: block; /* Verhindert zusätzliche Abstände */
+}

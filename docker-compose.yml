@@ -1,0 +1,39 @@
+services:
+  backend:
+    container_name: backend
+    build:
+      context: ./backend  # Path to your backend folder
+    ports:
+      - '4000:4000'  # Expose the backend port
+    networks:
+      - project_network
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+    ports:
+      - '3000:3000'
+    depends_on:
+      - backend
+    networks:
+      - project_network
+
+  pg-admin:
+    container_name: pg-admin
+    image: dpage/pgadmin4:6
+    environment: 
+      - PGADMIN_DEFAULT_EMAIL=admin@email.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+      - PGADMIN_LISTEN_PORT=5050
+    ports:
+      - "5050:5050"
+    networks:
+      - project_network
+    
+volumes:
+  pgdata: {}
+
+networks:
+  project_network:
+    driver: bridge
